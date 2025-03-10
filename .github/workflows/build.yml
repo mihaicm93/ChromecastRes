@@ -20,7 +20,7 @@ jobs:
 
       - name: List files in the repository
         run: |
-          cmd /c dir D:\a\ChromecastRescue\ChromecastRescue /s
+          cmd /c dir D:\a\ChromecastRes\ChromecastRes /s
           
       - name: Set up Python
         uses: actions/setup-python@v4
